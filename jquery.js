@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+/*
 $(document).ready(function(){
     $("p").hide();
     
@@ -25,4 +25,10 @@ $(document).ready(function(){
 	$("#fadeButton").click(function() {
 		$("#fadeHeader").fadeToggle(500);
 	});
+});
+
+*/
+
+$(document).ready(function(){    
+
 });
