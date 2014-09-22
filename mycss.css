@@ -1,8 +1,22 @@
-#header{
-    text-align: left;
-    font-size: 5em;
-    background-color: yellow;
-    height: 200px;
+.wrap{
+    position: relative;
+    margin: 0 auto;
+    width:auto
+}
+
+#header, #footer{
+    width: 100%;
+    float: left;
+}
+
+#footer {
+    background-color: blue;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    position: fixed;
+    bottom:0;
+    z-index: 999999;
 }
 
 .button{
